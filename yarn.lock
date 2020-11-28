@@ -1320,13 +1320,17 @@
     rimraf "^3.0.2"
     tar "^5.0.5"
 
-"@ombori/ga-messaging@^2.14.2":
-  version "2.14.3"
-  resolved "https://registry.yarnpkg.com/@ombori/ga-messaging/-/ga-messaging-2.14.3.tgz#1ac603b6db48ce68c4d548888e39fdb905caa487"
-  integrity sha512-+gzlERWNxpo8yqcANfd2z5nx40JJ6F1KoPD4j3ygx0xm64njtEQrVxIXqGfSJl9wVFntAPNcB14ZADwjYxXZRA==
+"@ombori/ga-messaging@^2.18.0":
+  version "2.19.0"
+  resolved "https://registry.yarnpkg.com/@ombori/ga-messaging/-/ga-messaging-2.19.0.tgz#9842e8b4971baad50e0f8de1dfa1663302c2d7d3"
+  integrity sha512-KCetAlxvY8oayfLkDnEaMrk49vjyG8Can11g9OctsM+AZqxPKlw00CNYmwvuDElUBf42MQT+qY4inrZei9Q9Aw==
+
+"@ombori/ga-settings@^2.18.0":
+  version "2.19.0"
+  resolved "https://registry.yarnpkg.com/@ombori/ga-settings/-/ga-settings-2.19.0.tgz#0b5a639e04915f9ec6795c6ddb7e59e2cf89291c"
+  integrity sha512-HpycHrYDc7EnYtcOyR6aLAxNb9+X9H4VWpbCLhdSaqc2uIPmYBARFu6bgVTPuxOTmKK0sS7pYkQ4jXuqHQm24w==
   dependencies:
-    react-fontawesome "^1.7.1"
-    react-loader-icon "^1.0.1"
+    babel-plugin-module-resolver "^4.0.0"
 
 "@ombori/ts-schema@^2.14.2":
   version "2.14.3"
@@ -2386,6 +2390,17 @@ babel-plugin-macros@2.8.0:
     "@babel/runtime" "^7.7.2"
     cosmiconfig "^6.0.0"
     resolve "^1.12.0"
+
+babel-plugin-module-resolver@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/babel-plugin-module-resolver/-/babel-plugin-module-resolver-4.0.0.tgz#8f3a3d9d48287dc1d3b0d5595113adabd36a847f"
+  integrity sha512-3pdEq3PXALilSJ6dnC4wMWr0AZixHRM4utpdpBR9g5QG7B7JwWyukQv7a9hVxkbGFl+nQbrHDqqQOIBtTXTP/Q==
+  dependencies:
+    find-babel-config "^1.2.0"
+    glob "^7.1.6"
+    pkg-up "^3.1.0"
+    reselect "^4.0.0"
+    resolve "^1.13.1"
 
 babel-plugin-named-asset-import@^0.3.6:
   version "0.3.6"
@@ -4716,6 +4731,14 @@ finalhandler@~1.1.2:
     statuses "~1.5.0"
     unpipe "~1.0.0"
 
+find-babel-config@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/find-babel-config/-/find-babel-config-1.2.0.tgz#a9b7b317eb5b9860cda9d54740a8c8337a2283a2"
+  integrity sha512-jB2CHJeqy6a820ssiqwrKMeyC6nNdmrcgkKWJWmpoxpE8RKciYJXCcXRq1h2AzCo5I5BJeN2tkGEO3hLTuePRA==
+  dependencies:
+    json5 "^0.5.1"
+    path-exists "^3.0.0"
+
 find-cache-dir@^0.1.1:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/find-cache-dir/-/find-cache-dir-0.1.1.tgz#c8defae57c8a52a8a784f9e31c57c742e993a0b9"
@@ -6520,6 +6543,11 @@ json3@^3.3.2:
   version "3.3.3"
   resolved "https://registry.yarnpkg.com/json3/-/json3-3.3.3.tgz#7fc10e375fc5ae42c4705a5cc0aa6f62be305b81"
   integrity sha512-c7/8mbUsKigAbLkD5B010BK4D9LZm7A1pNItkEwiUZRpIN66exu/e7YQWysGun+TRKaJp8MhemM+VkfWv42aCA==
+
+json5@^0.5.1:
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/json5/-/json5-0.5.1.tgz#1eade7acc012034ad84e2396767ead9fa5495821"
+  integrity sha1-Hq3nrMASA0rYTiOWdn6tn6VJWCE=
 
 json5@^1.0.1:
   version "1.0.1"
@@ -8719,7 +8747,7 @@ prompts@^2.0.1:
     kleur "^3.0.3"
     sisteransi "^1.0.4"
 
-prop-types@^15.5.6, prop-types@^15.6.2, prop-types@^15.7.2:
+prop-types@^15.6.2, prop-types@^15.7.2:
   version "15.7.2"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
   integrity sha512-8QQikdH7//R2vurIJSutZ1smHYTcLpRWEOlHnzcWHmBYrOGUysKwSsrC89BCiFj3CbrfJ/nXFdJepOVrY1GCHQ==
@@ -8930,22 +8958,10 @@ react-error-overlay@^6.0.7:
   resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-6.0.7.tgz#1dcfb459ab671d53f660a991513cb2f0a0553108"
   integrity sha512-TAv1KJFh3RhqxNvhzxj6LeT5NWklP6rDr2a0jaTfsZ5wSZWHOGeqQyejUp3xxLfPt2UpyJEcVQB/zyPcmonNFA==
 
-react-fontawesome@^1.7.1:
-  version "1.7.1"
-  resolved "https://registry.yarnpkg.com/react-fontawesome/-/react-fontawesome-1.7.1.tgz#f74f5a338fef3ee3b379820109c1cba47290f035"
-  integrity sha512-kottReWW1I9Uupub6A5YX4VK7qfpFnEjAcm5zB4Aepst7iofONT27GJYdTcRsj7q5uQu9PXBL7GsxAFKANNUVg==
-  dependencies:
-    prop-types "^15.5.6"
-
 react-is@^16.12.0, react-is@^16.8.1, react-is@^16.8.4:
   version "16.13.1"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
-
-react-loader-icon@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/react-loader-icon/-/react-loader-icon-1.0.1.tgz#b02ec660ea2b21141ed015b47dd46afe6603b7b7"
-  integrity sha512-/9HTSQ4mSvB5X2ENMAB0t9Mf3wrvcOGXMO0Pl9Ia1iFArshi+hTe4YzDPIMtItQiPSQBdFBJLgWBV9dYGSKyjQ==
 
 react-scripts@3.4.1:
   version "3.4.1"
@@ -9287,6 +9303,11 @@ requires-port@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/requires-port/-/requires-port-1.0.0.tgz#925d2601d39ac485e091cf0da5c6e694dc3dcaff"
   integrity sha1-kl0mAdOaxIXgkc8NpcbmlNw9yv8=
+
+reselect@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/reselect/-/reselect-4.0.0.tgz#f2529830e5d3d0e021408b246a206ef4ea4437f7"
+  integrity sha512-qUgANli03jjAyGlnbYVAV5vvnOmJnODyABz51RdBN7M4WaVu8mecZWgyQNkG8Yqe3KRGRt0l4K4B3XVEULC4CA==
 
 resolve-cwd@^2.0.0:
   version "2.0.0"
