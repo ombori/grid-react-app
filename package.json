@@ -4,7 +4,8 @@
   "private": true,
   "homepage": "./",
   "scripts": {
-    "start": "yarn schema && npx json-schema-defaults build/schema.json > src/settings.json && react-scripts start",
+    "bootstrap": "mkdir src/settings && cp default.settings.json src/settings/index.json",
+    "start": "yarn schema && react-scripts start",
     "schema": "mkdir -p build && npx ts-schema src/schema.ts build",
     "prodbuild": "cross-env GENERATE_SOURCEMAP=false react-scripts build && cp package.json build/",
     "build": "rimraf build && yarn prodbuild && yarn schema && omg app build",
