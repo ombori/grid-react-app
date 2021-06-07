@@ -1320,15 +1320,15 @@
     rimraf "^3.0.2"
     tar "^5.0.5"
 
-"@ombori/ga-messaging@^2.18.0":
-  version "2.19.0"
-  resolved "https://registry.yarnpkg.com/@ombori/ga-messaging/-/ga-messaging-2.19.0.tgz#9842e8b4971baad50e0f8de1dfa1663302c2d7d3"
-  integrity sha512-KCetAlxvY8oayfLkDnEaMrk49vjyG8Can11g9OctsM+AZqxPKlw00CNYmwvuDElUBf42MQT+qY4inrZei9Q9Aw==
+"@ombori/ga-messaging@^2.64.0":
+  version "2.64.0"
+  resolved "https://registry.yarnpkg.com/@ombori/ga-messaging/-/ga-messaging-2.64.0.tgz#b668f2e3af577e630abd2c397587efa75be7c6ee"
+  integrity sha512-2Ef3bXG6+JzGx94emKfGlTT4FMK5c2RcZrkWjX/79mpwDmkZOW00MNWQfcOPVoY3yTPYnNqtSaq8PzTHOBDbUQ==
 
-"@ombori/ga-settings@^2.18.0":
-  version "2.19.0"
-  resolved "https://registry.yarnpkg.com/@ombori/ga-settings/-/ga-settings-2.19.0.tgz#0b5a639e04915f9ec6795c6ddb7e59e2cf89291c"
-  integrity sha512-HpycHrYDc7EnYtcOyR6aLAxNb9+X9H4VWpbCLhdSaqc2uIPmYBARFu6bgVTPuxOTmKK0sS7pYkQ4jXuqHQm24w==
+"@ombori/ga-settings@^2.63.2":
+  version "2.63.3"
+  resolved "https://registry.yarnpkg.com/@ombori/ga-settings/-/ga-settings-2.63.3.tgz#b9d7e5e6b28ce2bfd6b8fe13a91179b70bff612e"
+  integrity sha512-OsWSEHRnXsmsU5rMPYm7Xg43h0JDzosIdlhMcfVgpOnXVNWbReUsbc4dyn+bSh2A9lo8dzgs5IszLmiIvtlZPg==
   dependencies:
     babel-plugin-module-resolver "^4.0.0"
 

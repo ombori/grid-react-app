@@ -30,15 +30,11 @@
     ]
   },
   "dependencies": {
-    "@ombori/ga-messaging": "^2.18.0",
-    "@ombori/ga-settings": "^2.18.0",
+    "@ombori/ga-messaging": "^2.64.0",
+    "@ombori/ga-settings": "^2.63.2",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
-    "@types/jest": "^24.0.0",
-    "@types/node": "^12.0.0",
-    "@types/react": "^16.9.0",
-    "@types/react-dom": "^16.9.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",
@@ -49,6 +45,10 @@
     "@ombori/ts-schema": "^2.14.2",
     "json-schema-defaults": "^0.4.0",
     "rimraf": "^3.0.2",
-    "cross-env": "^7.0.2"
+    "cross-env": "^7.0.2",
+    "@types/jest": "^24.0.0",
+    "@types/node": "^12.0.0",
+    "@types/react": "^16.9.0",
+    "@types/react-dom": "^16.9.0"
   }
 }

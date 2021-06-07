@@ -1,11 +1,13 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { useSettings } from '@ombori/ga-settings';
+import { useHeartbeat } from '@ombori/ga-messaging';
 import logo from './logo.svg';
 import './App.css';
 
 import { Schema as Settings } from './schema';
 
 function App() {
+  useHeartbeat();
   const settings = useSettings<Settings>();
 
   const productName = settings?.productName;
