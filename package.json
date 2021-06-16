@@ -11,7 +11,8 @@
     "build": "rimraf build && yarn prodbuild && yarn schema && omg app build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "publish": "omg app publish",
+    "pub": "omg app publish",
+    "settings": "omg app settings",
     "upload-description": "omg app upload-description"
   },
   "eslintConfig": {
