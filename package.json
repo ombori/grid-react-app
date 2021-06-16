@@ -9,7 +9,6 @@
     "schema": "mkdir -p build && npx ts-schema src/schema.ts build",
     "prodbuild": "cross-env GENERATE_SOURCEMAP=false react-scripts build && cp package.json build/",
     "build": "rimraf build && yarn prodbuild && yarn schema && omg app build",
-    "test": "react-scripts test",
     "eject": "react-scripts eject",
     "pub": "omg app publish",
     "settings": "omg app settings",
