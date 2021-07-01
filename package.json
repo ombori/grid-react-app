@@ -5,14 +5,15 @@
   "homepage": "./",
   "scripts": {
     "bootstrap": "mkdir src/settings && cp default.settings.json src/settings/index.json",
-    "start": "yarn schema && react-scripts start",
+    "start": "yarn schema && REACT_APP_MESSAGING_URL=ws://localhost:8088 react-scripts start",
     "schema": "mkdir -p build && npx ts-schema src/schema.ts build",
     "prodbuild": "cross-env GENERATE_SOURCEMAP=false react-scripts build && cp package.json build/",
     "build": "rimraf build && yarn prodbuild && yarn schema && omg app build",
     "eject": "react-scripts eject",
     "pub": "omg app publish",
     "settings": "omg app settings",
-    "upload-description": "omg app upload-description"
+    "upload-description": "omg app upload-description",
+    "connect": "omg dev ws"
   },
   "eslintConfig": {
     "extends": "react-app"
