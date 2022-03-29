@@ -32,8 +32,8 @@
   },
   "dependencies": {
     "@ombori/ga-messaging": "^2.90.2",
-    "@ombori/ga-settings": "^2.170.1",
-    "@ombori/grid-signals-react": "^2.170.1",
+    "@ombori/ga-settings": "^2.185.0",
+    "@ombori/grid-signals-react": "^2.194.3",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
@@ -44,8 +44,8 @@
     "typescript": "^3.9.5"
   },
   "devDependencies": {
-    "@ombori/ga-cli": "^1.7.6",
-    "@ombori/ts-schema": "^2.82.17",
+    "@ombori/ga-cli": "^2.193.1",
+    "@ombori/ts-schema": "^2.92.0",
     "@types/jest": "^24.0.0",
     "@types/node": "^12.0.0",
     "@types/react": "^16.9.0",
