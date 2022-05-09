@@ -6,7 +6,7 @@
   "scripts": {
     "bootstrap": "mkdir src/settings && cp default.settings.json src/settings/index.json",
     "start": "yarn schema && REACT_APP_MESSAGING_URL=ws://localhost:8088 react-scripts start",
-    "schema": "mkdir -p build && npx ts-schema src/schema.ts build",
+    "schema": "mkdir -p build && chown ugurozdemir build && npx ts-schema src/schema.ts build",
     "prodbuild": "cross-env GENERATE_SOURCEMAP=false react-scripts build && cp package.json build/",
     "build": "rimraf build && yarn prodbuild && yarn schema && omg app build",
     "eject": "react-scripts eject",
@@ -37,11 +37,11 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-scripts": "5.0.1",
     "styled-components": "^5.3.0",
-    "typescript": "^3.9.5"
+    "typescript": "^4.6.4"
   },
   "devDependencies": {
     "@ombori/ga-cli": "^2.193.1",
