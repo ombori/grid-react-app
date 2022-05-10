@@ -6,7 +6,7 @@
   "scripts": {
     "bootstrap": "mkdir src/settings && cp default.settings.json src/settings/index.json",
     "start": "yarn schema && REACT_APP_MESSAGING_URL=ws://localhost:8088 react-scripts start",
-    "schema": "mkdir -p build && chown ugurozdemir build && npx ts-schema src/schema.ts build",
+    "schema": "mkdir -p build && npx ts-schema src/schema.ts build",
     "prodbuild": "cross-env GENERATE_SOURCEMAP=false react-scripts build && cp package.json build/",
     "build": "rimraf build && yarn prodbuild && yarn schema && omg app build",
     "eject": "react-scripts eject",
