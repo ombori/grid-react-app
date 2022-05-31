@@ -1,5 +1,5 @@
-# New Application Name #
-by New Developer
+# {{applicationName}} #
+by {{author}}
 
 A short description will be displayed in application list.
 
