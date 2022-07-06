@@ -32,26 +32,25 @@
   },
   "dependencies": {
     "@ombori/ga-messaging": "^2.90.2",
-    "@ombori/ga-settings": "^2.185.0",
-    "@ombori/grid-signals-react": "^2.194.3",
+    "@ombori/ga-settings": "^2.218.5",
+    "@ombori/grid-signals-react": "^2.218.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "styled-components": "^5.3.5",
+    "typescript": "^4.7.4"
+  },
+  "devDependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
-    "react": "^18.1.0",
-    "react-dom": "^18.1.0",
-    "react-scripts": "5.0.1",
-    "styled-components": "^5.3.0",
-    "typescript": "^4.6.4"
-  },
-  "devDependencies": {
-    "@ombori/ga-cli": "^2.193.1",
+    "react-scripts": "4.0.3",
     "@ombori/ts-schema": "^2.92.0",
-    "@types/jest": "^24.0.0",
-    "@types/node": "^12.0.0",
-    "@types/react": "^16.9.0",
-    "@types/react-dom": "^16.9.0",
-    "@types/styled-components": "^5.1.12",
-    "cross-env": "^7.0.2",
+    "@types/jest": "^28.1.4",
+    "@types/node": "^18.0.3",
+    "@types/react": "^18.0.15",
+    "@types/react-dom": "^18.0.6",
+    "@types/styled-components": "^5.1.25",
+    "cross-env": "^7.0.3",
     "json-schema-defaults": "^0.4.0",
     "rimraf": "^3.0.2"
   }
