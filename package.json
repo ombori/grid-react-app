@@ -4,10 +4,10 @@
   "private": true,
   "homepage": "./",
   "scripts": {
-    "bootstrap": "mkdir src/settings && cp default.settings.json src/settings/index.json",
-    "start": "yarn schema && REACT_APP_MESSAGING_URL=ws://localhost:8088 react-scripts start",
-    "schema": "mkdir -p build && npx ts-schema src/schema.ts build",
-    "prodbuild": "cross-env GENERATE_SOURCEMAP=false react-scripts build && cp package.json build/",
+    "bootstrap": "mkdirp src/settings && ncp default.settings.json src/settings/index.json",
+    "start": "yarn schema && cross-env REACT_APP_MESSAGING_URL=ws://localhost:8088 react-scripts start",
+    "schema": "mkdirp build && npx ts-schema src/schema.ts build",
+    "prodbuild": "cross-env GENERATE_SOURCEMAP=false react-scripts build && ncp package.json build/",
     "build": "rimraf build && yarn prodbuild && yarn schema && omg app build",
     "eject": "react-scripts eject",
     "pub": "omg app publish",
@@ -40,11 +40,10 @@
     "typescript": "^4.7.4"
   },
   "devDependencies": {
+    "@ombori/ts-schema": "^2.92.0",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
-    "react-scripts": "4.0.3",
-    "@ombori/ts-schema": "^2.92.0",
     "@types/jest": "^28.1.4",
     "@types/node": "^18.0.3",
     "@types/react": "^18.0.15",
@@ -52,6 +51,9 @@
     "@types/styled-components": "^5.1.25",
     "cross-env": "^7.0.3",
     "json-schema-defaults": "^0.4.0",
+    "mkdirp": "^1.0.4",
+    "ncp": "^2.0.0",
+    "react-scripts": "4.0.3",
     "rimraf": "^3.0.2"
   }
 }
