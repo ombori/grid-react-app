@@ -32,15 +32,15 @@
   },
   "dependencies": {
     "@ombori/ga-messaging": "^2.90.2",
-    "@ombori/ga-settings": "^2.218.5",
-    "@ombori/grid-signals-react": "^2.218.6",
+    "@ombori/ga-settings": "^2.226.2",
+    "@ombori/grid-signals-react": "^2.229.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "styled-components": "^5.3.5",
     "typescript": "^4.7.4"
   },
   "devDependencies": {
-    "@ombori/ts-schema": "^2.92.0",
+    "@ombori/ts-schema": "^2.231.1",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
