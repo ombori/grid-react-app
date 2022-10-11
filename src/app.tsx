@@ -17,22 +17,6 @@ function App() {
   const productPrice = settings?.productPrice;
 
   useEffect(() => {
-    const test = async () => {
-      try {
-        const data = await axios.post('https://goosdsddsdseef.com/api/fake');
-        console.log(data);
-      } catch (e) {
-        const ez = e as any;
-        console.log('Xe.response:', ez.response.status)
-        // if (e.response && e.response.status === 404)
-        console.log('XXX-E:', e);
-      }
-    }
-
-    test();
-  }, []);
-
-  useEffect(() => {
     if (productName) {
       gs().sendContentView({ title: productName });
     }
