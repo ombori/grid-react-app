@@ -1,5 +1,6 @@
 import React, { useEffect, useCallback, useState } from 'react';
 import { getInstance as gs } from '@ombori/grid-signals-react';
+import axios from 'axios';
 import styled from 'styled-components';
 import { useSettings } from '@ombori/ga-settings';
 import { useHeartbeat } from '@ombori/ga-messaging';
@@ -14,6 +15,22 @@ function App() {
 
   const productName = settings?.productName;
   const productPrice = settings?.productPrice;
+
+  useEffect(() => {
+    const test = async () => {
+      try {
+        const data = await axios.post('https://goosdsddsdseef.com/api/fake');
+        console.log(data);
+      } catch (e) {
+        const ez = e as any;
+        console.log('Xe.response:', ez.response.status)
+        // if (e.response && e.response.status === 404)
+        console.log('XXX-E:', e);
+      }
+    }
+
+    test();
+  }, []);
 
   useEffect(() => {
     if (productName) {
