@@ -1,6 +1,5 @@
 import React, { useEffect, useCallback, useState } from 'react';
 import { getInstance as gs } from '@ombori/grid-signals-react';
-import axios from 'axios';
 import styled from 'styled-components';
 import { useSettings } from '@ombori/ga-settings';
 import { useHeartbeat } from '@ombori/ga-messaging';
