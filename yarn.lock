@@ -1917,17 +1917,17 @@
   dependencies:
     babel-plugin-module-resolver "^4.0.0"
 
-"@ombori/grid-signals-react@^2.229.6":
-  version "2.229.6"
-  resolved "https://registry.yarnpkg.com/@ombori/grid-signals-react/-/grid-signals-react-2.229.6.tgz#c0af721b7cb0c60636f38eeb7ee2aeb4bac56b37"
-  integrity sha512-vXVmLuAgo3MPbx5pczCyRTM9tdsb/GcgDtBC1pQKZakOGQZa0IXDR3bPnnPiRnTcws6SRGmgYGQq9VwDX5/57A==
+"@ombori/grid-signals-react@^2.233.3":
+  version "2.233.3"
+  resolved "https://registry.yarnpkg.com/@ombori/grid-signals-react/-/grid-signals-react-2.233.3.tgz#33431516c14edb5e63cea7e94b53e256d47256f3"
+  integrity sha512-lHVtXPnheD08ZmfoVs3BssFH2zGfVBqmdQNglNE0b+t8Y4BdVVNwzyycrfCDdoXw0I3Ug4uiArlt9apgPiSIeg==
   dependencies:
-    "@ombori/grid-signals" "2.229.6"
+    "@ombori/grid-signals" "2.233.3"
 
-"@ombori/grid-signals@2.229.6":
-  version "2.229.6"
-  resolved "https://registry.yarnpkg.com/@ombori/grid-signals/-/grid-signals-2.229.6.tgz#d8f828e2864b1b803aa71542a49ed152cc9d2c91"
-  integrity sha512-YYiEUJdPnsKzZy4EtZFCj3l0Ivh6hLI06ATX3pQhTDVg/XEWef+Qcq6VdtBdhk3174K/Y92JD/uB0vsTIE8D0A==
+"@ombori/grid-signals@2.233.3":
+  version "2.233.3"
+  resolved "https://registry.yarnpkg.com/@ombori/grid-signals/-/grid-signals-2.233.3.tgz#9a037484754b7a0c055fe43c7b1e1247814c6084"
+  integrity sha512-t/1SuaIUmmyQgudRNuuTWKvgitOvgLXqKaBZlexchz+MseJXMjm0uckyyYX49n+Prlv23AU4EBCh7Cq8L7nYDw==
   dependencies:
     "@microsoft/signalr" "^6.0.0"
     isomorphic-fetch "^3.0.0"

@@ -33,7 +33,7 @@
   "dependencies": {
     "@ombori/ga-messaging": "^2.90.2",
     "@ombori/ga-settings": "^2.226.2",
-    "@ombori/grid-signals-react": "^2.229.6",
+    "@ombori/grid-signals-react": "^2.233.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "styled-components": "^5.3.5",
