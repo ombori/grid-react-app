@@ -1905,6 +1905,13 @@
     mkdirp "^1.0.4"
     rimraf "^3.0.2"
 
+"@ombori/ga-analytics-schema@^3.4.2":
+  version "3.4.2"
+  resolved "https://registry.yarnpkg.com/@ombori/ga-analytics-schema/-/ga-analytics-schema-3.4.2.tgz#7106567f73c289745aa3078ba15a73a5c176c67d"
+  integrity sha512-KT6IZdArjY73ZxC/D58PM660GXvrR1uG6kX/iwK+vEXiRjDcdpT7M72O7W4/fu3Sls8Yzg52pz0oyFZmCgWIHw==
+  dependencies:
+    babel-plugin-module-resolver "^4.0.0"
+
 "@ombori/ga-messaging@^2.90.2":
   version "2.90.2"
   resolved "https://registry.yarnpkg.com/@ombori/ga-messaging/-/ga-messaging-2.90.2.tgz#e3fb877b9519505146f9981fdacac3a44e7557d1"
