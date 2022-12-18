@@ -7,7 +7,7 @@
     "bootstrap": "mkdirp src/settings && ncp default.settings.json src/settings/index.json",
     "start": "yarn schema && cross-env REACT_APP_MESSAGING_URL=ws://localhost:8088 react-scripts start",
     "schema": "mkdirp build && npx ts-schema src/schema.ts build && npx analytics-schema",
-    "analytics-schema": "npx tsc src/analytics-schema.ts --skipLibCheck --outFile /dev/stdout -m amd | node -e 'a={};eval(\"define=(_,__,c)=>{c(a,a);console.log(JSON.stringify(a.default))};\"+require(\"fs\").readFileSync(\"/dev/stdin\",\"utf8\"))' > build/analytics-schema.json",
+    "analytics-schema": "npx tsc src/analytics-schema.ts --moduleResolution node --skipLibCheck --outFile /dev/stdout -m amd | node -e 'a={};eval(\"define=(_,__,c)=>{c(a,a);console.log(JSON.stringify(a.default))};\"+require(\"fs\").readFileSync(\"/dev/stdin\",\"utf8\"))' > build/analytics-schema.json",
     "prodbuild": "cross-env GENERATE_SOURCEMAP=false react-scripts build && ncp package.json build/",
     "build": "rimraf build && yarn prodbuild && yarn schema && omg app build",
     "eject": "react-scripts eject",
