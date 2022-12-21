@@ -1,11 +1,27 @@
-import { AnalyticsSchema } from '@ombori/ga-analytics-schema';
+import {
+  buildReportSchema,
+  buildReportGroups,
+  buildReportGroup,
+  buildReportCards,
+  buildSessionsCard,
+  SessionInteractionType,
+} from '@ombori/grid-reports';
 
 /**
  * This file declares customized analytics reports that would be displayed for an application.
  */
 
-const schema: AnalyticsSchema = [{
-  title: "Test Report",
-}];
+const reportSchema = buildReportSchema({
+  groups: buildReportGroups(
+    buildReportGroup({
+      name: 'Overview',
+      cards: buildReportCards(
+        buildSessionsCard({
+          interactionType: SessionInteractionType.Interactive,
+        }),
+      ),
+    })
+  ),
+});
 
-export default schema;
+export default reportSchema;
