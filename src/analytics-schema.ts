@@ -1,4 +1,4 @@
-import {AnalyticsSchema, CardType, SessionInteractionType,} from '@ombori/grid-reports';
+import { AnalyticsSchema, CardType, SessionInteractionType } from '@ombori/grid-reports';
 
 /**
  * This file declares customized analytics reports that would be displayed for an application.
