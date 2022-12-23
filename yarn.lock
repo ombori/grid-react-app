@@ -1917,10 +1917,10 @@
   dependencies:
     babel-plugin-module-resolver "^4.0.0"
 
-"@ombori/grid-reports@^3.10.2":
-  version "3.10.2"
-  resolved "https://registry.yarnpkg.com/@ombori/grid-reports/-/grid-reports-3.10.2.tgz#965e59ac5e08f72f05ffc4458c63b60eca2920c4"
-  integrity sha512-fXte6j1cjrXZBm+iCrys7kja39yRuQjIa3aQ6/EM82JRKxGN7thLf9XG7DPuNHxWPDQy8zHkFLPy1QNXtjib/Q==
+"@ombori/grid-reports@^3.10.3":
+  version "3.10.3"
+  resolved "https://registry.yarnpkg.com/@ombori/grid-reports/-/grid-reports-3.10.3.tgz#c51fb6bef33c217fa46419b7e486df047078f9bd"
+  integrity sha512-RgoW0Kk4AsTw4+49HJbS34+ABTsBIZXzLcmbTZPq0emL+2VGhdh63L3yEnUyvYhEhMDvuojE3Lzv0DOfE6Gjtw==
 
 "@ombori/grid-signals-react@^2.229.6":
   version "2.229.6"
