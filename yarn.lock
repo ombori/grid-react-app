@@ -2484,31 +2484,33 @@
   resolved "https://registry.yarnpkg.com/@ombori/ga-messaging/-/ga-messaging-2.90.2.tgz#e3fb877b9519505146f9981fdacac3a44e7557d1"
   integrity sha512-OxgMS/pRh8PV3T9TIa1aOiLjWJs2FJ1t91TfRwg1T94FWjUIRVt0tVOVEYOK3UYbV747yS7/RzZNDG7w0c53vA==
 
-"@ombori/ga-settings@^2.226.2":
-  version "2.226.2"
-  resolved "https://registry.yarnpkg.com/@ombori/ga-settings/-/ga-settings-2.226.2.tgz#c570148d5fd03dfe59bf4c2002641497fd2c15cc"
-  integrity sha512-wK7D+8rHHs4Uwiax9YzB3cMgrfr9ir3kI81Q7vQlG39GkxYm7e4D5/ei64PW1Vz7vr2WPLwguhcCjnOt25afGw==
+"@ombori/ga-settings@3.11.3", "@ombori/ga-settings@^3.11.3":
+  version "3.11.3"
+  resolved "https://registry.yarnpkg.com/@ombori/ga-settings/-/ga-settings-3.11.3.tgz#94028c35731e53dba3b28bb160e2dd8e2648aebf"
+  integrity sha512-jL1Ef3U8zhh6ZZ3g38m+AiaVxEbuVvF8S+w38+XWruY9DyVp1dG9WFqN1LYlH3rER3p8a8V84Gt/sMESxyIzzQ==
   dependencies:
     babel-plugin-module-resolver "^4.0.0"
 
-"@ombori/grid-reports@^3.10.3":
-  version "3.10.3"
-  resolved "https://registry.yarnpkg.com/@ombori/grid-reports/-/grid-reports-3.10.3.tgz#c51fb6bef33c217fa46419b7e486df047078f9bd"
-  integrity sha512-RgoW0Kk4AsTw4+49HJbS34+ABTsBIZXzLcmbTZPq0emL+2VGhdh63L3yEnUyvYhEhMDvuojE3Lzv0DOfE6Gjtw==
+"@ombori/grid-reports@^3.11.2":
+  version "3.11.2"
+  resolved "https://registry.yarnpkg.com/@ombori/grid-reports/-/grid-reports-3.11.2.tgz#f64dfecded1b8e9671f86505e6bd5d82aad76955"
+  integrity sha512-ovMT4FT+K7dv6Sqc3Mgbwruq1Ea+j4IPGzmZJV96A0v1l8aAHtKXZK/9du/DNHWyNNstyj6CWwB+zoBo823Vnw==
 
-"@ombori/grid-signals-react@^2.229.6":
-  version "2.229.6"
-  resolved "https://registry.yarnpkg.com/@ombori/grid-signals-react/-/grid-signals-react-2.229.6.tgz#c0af721b7cb0c60636f38eeb7ee2aeb4bac56b37"
-  integrity sha512-vXVmLuAgo3MPbx5pczCyRTM9tdsb/GcgDtBC1pQKZakOGQZa0IXDR3bPnnPiRnTcws6SRGmgYGQq9VwDX5/57A==
+"@ombori/grid-signals-react@^3.11.3":
+  version "3.11.3"
+  resolved "https://registry.yarnpkg.com/@ombori/grid-signals-react/-/grid-signals-react-3.11.3.tgz#fbc0999057fbcb49152c7d271f41e8273eca1d5f"
+  integrity sha512-lSEi5U9K7tQW4kVzYa8nqUmeown1mOjux0nZKEthN6df0N5zDoHRaJLngdYCX2+vYs2pHcLuWElUxhZ0qBCN+w==
   dependencies:
-    "@ombori/grid-signals" "2.229.6"
+    "@ombori/ga-settings" "3.11.3"
+    "@ombori/grid-signals" "3.11.0"
 
-"@ombori/grid-signals@2.229.6":
-  version "2.229.6"
-  resolved "https://registry.yarnpkg.com/@ombori/grid-signals/-/grid-signals-2.229.6.tgz#d8f828e2864b1b803aa71542a49ed152cc9d2c91"
-  integrity sha512-YYiEUJdPnsKzZy4EtZFCj3l0Ivh6hLI06ATX3pQhTDVg/XEWef+Qcq6VdtBdhk3174K/Y92JD/uB0vsTIE8D0A==
+"@ombori/grid-signals@3.11.0":
+  version "3.11.0"
+  resolved "https://registry.yarnpkg.com/@ombori/grid-signals/-/grid-signals-3.11.0.tgz#70a5d78cb0bd950ed0c939a1af07b98536c70c97"
+  integrity sha512-WQPYvOb43i/l7hl8bOuKqIpxSwruShH99ie9QqYCMaaFKLFvyoS9otxILlKfT4gFRJW8ls0Wzq4mCcOM/rTMFA==
   dependencies:
     "@microsoft/signalr" "^6.0.0"
+    buffer "^6.0.3"
     isomorphic-fetch "^3.0.0"
     lodash "^4.17.21"
     lodash.isnil "^4.0.0"
@@ -4006,6 +4008,11 @@ balanced-match@^1.0.0:
   resolved "https://registry.yarnpkg.com/balanced-match/-/balanced-match-1.0.0.tgz#89b4d199ab2bee49de164ea02b89ce462d71b767"
   integrity sha1-ibTRmasr7kneFk6gK4nORi1xt2c=
 
+base64-js@^1.3.1:
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/base64-js/-/base64-js-1.5.1.tgz#1b1b440160a5bf7ad40b650f095963481903930a"
+  integrity sha512-AKpaYlHn8t4SVbOHCy+b5+KKgvR4vrsD8vbvrbiQJps7fKDTkjkDry6ji0rUJjC0kzbNePLwzxq8iypo41qeWA==
+
 batch@0.6.1:
   version "0.6.1"
   resolved "https://registry.yarnpkg.com/batch/-/batch-0.6.1.tgz#dc34314f4e679318093fc760272525f94bf25c16"
@@ -4137,6 +4144,14 @@ buffer-from@^1.0.0:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/buffer-from/-/buffer-from-1.1.1.tgz#32713bc028f75c02fdb710d7c7bcec1f2c6070ef"
   integrity sha512-MQcXEUbCKtEo7bhqEs6560Hyd4XaovZlO/k9V3hjVUF/zwW7KBVdSK4gIt/bzwS9MbR5qob+F5jusZsb0YQK2A==
+
+buffer@^6.0.3:
+  version "6.0.3"
+  resolved "https://registry.yarnpkg.com/buffer/-/buffer-6.0.3.tgz#2ace578459cc8fbe2a70aaa8f52ee63b6a74c6c6"
+  integrity sha512-FTiCpNxtwiZZHEZbcbTIcZjERVICn9yq/pDFkTl95/AxzD1naBctN7YO68riM/gLSDY7sdrMby8hofADYuuqOA==
+  dependencies:
+    base64-js "^1.3.1"
+    ieee754 "^1.2.1"
 
 builtin-modules@^3.1.0:
   version "3.3.0"
@@ -6393,6 +6408,11 @@ identity-obj-proxy@^3.0.0:
   integrity sha512-00n6YnVHKrinT9t0d9+5yZC6UBNJANpYEQvL2LlX6Ab9lnmxzIRcEmTPuyGScvl1+jKuCICX1Z0Ab1pPKKdikA==
   dependencies:
     harmony-reflect "^1.4.6"
+
+ieee754@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/ieee754/-/ieee754-1.2.1.tgz#8eb7a10a63fff25d15a57b001586d177d1b0d352"
+  integrity sha512-dcyqhDvX1C46lXZcVqCpK+FtMRQVdIMN6/Df5js2zouUsqG7I6sFxitIC+7KYK29KdXOLHdu9zL4sFnoVQnqaA==
 
 ignore@^5.2.0:
   version "5.2.0"
