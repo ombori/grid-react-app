@@ -32,10 +32,10 @@
     ]
   },
   "dependencies": {
-    "@ombori/ga-messaging": "^2.90.2",
-    "@ombori/ga-settings": "^3.11.3",
-    "@ombori/grid-reports": "^3.11.2",
-    "@ombori/grid-signals-react": "^3.11.3",
+    "@ombori/ga-messaging": "^3.20.6",
+    "@ombori/ga-settings": "^3.37.1",
+    "@ombori/grid-reports": "^3.36.0",
+    "@ombori/grid-signals-react": "^3.37.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "styled-components": "^5.3.5",
