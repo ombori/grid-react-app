@@ -2,13 +2,11 @@ import React, { useEffect, useCallback, useState } from 'react';
 import { getInstance as gs } from '@ombori/grid-signals-react';
 import styled from 'styled-components';
 import { useSettings } from '@ombori/ga-settings';
-import { useHeartbeat } from '@ombori/ga-messaging';
 import logo from './logo.svg';
 
 import { Schema as Settings } from './schema';
 
 function App() {
-  useHeartbeat();
   const [productCount, setProductCount] = useState(0);
   const settings = useSettings<Settings>();
 

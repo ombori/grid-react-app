@@ -2479,35 +2479,35 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@ombori/ga-messaging@^2.90.2":
-  version "2.90.2"
-  resolved "https://registry.yarnpkg.com/@ombori/ga-messaging/-/ga-messaging-2.90.2.tgz#e3fb877b9519505146f9981fdacac3a44e7557d1"
-  integrity sha512-OxgMS/pRh8PV3T9TIa1aOiLjWJs2FJ1t91TfRwg1T94FWjUIRVt0tVOVEYOK3UYbV747yS7/RzZNDG7w0c53vA==
+"@ombori/ga-messaging@^3.20.6":
+  version "3.20.6"
+  resolved "https://registry.yarnpkg.com/@ombori/ga-messaging/-/ga-messaging-3.20.6.tgz#2b49535319cb85b7eaf5e7b3e60e433703da0bde"
+  integrity sha512-ElFfl2WaBOgmzYPV2DsuNqv7tHMCEU+qrK88EeeXd35aLRnpWHNL2yrBZXrTR10KqIURnLyH5/IvjPmijhyJkw==
 
-"@ombori/ga-settings@3.11.3", "@ombori/ga-settings@^3.11.3":
-  version "3.11.3"
-  resolved "https://registry.yarnpkg.com/@ombori/ga-settings/-/ga-settings-3.11.3.tgz#94028c35731e53dba3b28bb160e2dd8e2648aebf"
-  integrity sha512-jL1Ef3U8zhh6ZZ3g38m+AiaVxEbuVvF8S+w38+XWruY9DyVp1dG9WFqN1LYlH3rER3p8a8V84Gt/sMESxyIzzQ==
+"@ombori/ga-settings@3.37.1", "@ombori/ga-settings@^3.37.1":
+  version "3.37.1"
+  resolved "https://registry.yarnpkg.com/@ombori/ga-settings/-/ga-settings-3.37.1.tgz#981e62a3cb3b3ef3f3cfb7ba25405eb5535c8894"
+  integrity sha512-uL+n+oA+ExrItpt5EZ/i9/3wDLcfnMiNPTb5DlY+8S4bnkMR7/asHwUUQfqi3qaTDebUarb2FSVNOWv72RpeOg==
   dependencies:
     babel-plugin-module-resolver "^4.0.0"
 
-"@ombori/grid-reports@^3.11.2":
-  version "3.11.2"
-  resolved "https://registry.yarnpkg.com/@ombori/grid-reports/-/grid-reports-3.11.2.tgz#f64dfecded1b8e9671f86505e6bd5d82aad76955"
-  integrity sha512-ovMT4FT+K7dv6Sqc3Mgbwruq1Ea+j4IPGzmZJV96A0v1l8aAHtKXZK/9du/DNHWyNNstyj6CWwB+zoBo823Vnw==
+"@ombori/grid-reports@^3.37.4":
+  version "3.37.4"
+  resolved "https://registry.yarnpkg.com/@ombori/grid-reports/-/grid-reports-3.37.4.tgz#f9e7d098e5148f8210a4df2daf73519414725232"
+  integrity sha512-lZzGZBzTy2GSE5tHF+eK6UX7AQhewN+AjR5BCGjzunlJQINMZWGC8q5c/E3yFXUJMWfeJu49bdaw04AkZRoD4Q==
 
-"@ombori/grid-signals-react@^3.11.3":
-  version "3.11.3"
-  resolved "https://registry.yarnpkg.com/@ombori/grid-signals-react/-/grid-signals-react-3.11.3.tgz#fbc0999057fbcb49152c7d271f41e8273eca1d5f"
-  integrity sha512-lSEi5U9K7tQW4kVzYa8nqUmeown1mOjux0nZKEthN6df0N5zDoHRaJLngdYCX2+vYs2pHcLuWElUxhZ0qBCN+w==
+"@ombori/grid-signals-react@^3.37.1":
+  version "3.37.1"
+  resolved "https://registry.yarnpkg.com/@ombori/grid-signals-react/-/grid-signals-react-3.37.1.tgz#b69847df96a17fbdf7d8102398c88bdb7d6a7fd8"
+  integrity sha512-fTW/BiP4VQQrH49qGmKLVov+zYjgworW7PFO6gTa8x5ckRiPsyQjm/z0U1yw1UZuwElExzU+DjAdw3sfy7QWHA==
   dependencies:
-    "@ombori/ga-settings" "3.11.3"
-    "@ombori/grid-signals" "3.11.0"
+    "@ombori/ga-settings" "3.37.1"
+    "@ombori/grid-signals" "3.22.2"
 
-"@ombori/grid-signals@3.11.0":
-  version "3.11.0"
-  resolved "https://registry.yarnpkg.com/@ombori/grid-signals/-/grid-signals-3.11.0.tgz#70a5d78cb0bd950ed0c939a1af07b98536c70c97"
-  integrity sha512-WQPYvOb43i/l7hl8bOuKqIpxSwruShH99ie9QqYCMaaFKLFvyoS9otxILlKfT4gFRJW8ls0Wzq4mCcOM/rTMFA==
+"@ombori/grid-signals@3.22.2":
+  version "3.22.2"
+  resolved "https://registry.yarnpkg.com/@ombori/grid-signals/-/grid-signals-3.22.2.tgz#f9d3a4dd19575f76f448e62bd97463eb1c5085c8"
+  integrity sha512-hyuOVXQaf6hQ1Uefo+HtUoBUD9166PkK3doASPyq70o0ll4/f7pnCww1kDtxWcFTSaQrH03FxtMZ02caZoBbjA==
   dependencies:
     "@microsoft/signalr" "^6.0.0"
     buffer "^6.0.3"
@@ -9086,6 +9086,11 @@ process-nextick-args@~2.0.0:
   resolved "https://registry.yarnpkg.com/process-nextick-args/-/process-nextick-args-2.0.1.tgz#7820d9b16120cc55ca9ae7792680ae7dba6d7fe2"
   integrity sha512-3ouUOpQhtgrbOa17J7+uxOTpITYWaGP7/AhoR3+A+/1e9skrzelGi/dXzEYyvbxubEF6Wn2ypscTKiKJFFn1ag==
 
+process@^0.11.10:
+  version "0.11.10"
+  resolved "https://registry.yarnpkg.com/process/-/process-0.11.10.tgz#7332300e840161bda3e69a1d1d91a7d4bc16f182"
+  integrity sha512-cdGef/drWFoydD1JsMzuFf8100nZl+GT+yacc2bEced5f9Rjk4z+WtFUTBu9PhOi9j/jfmBPu0mMEY4wIdAF8A==
+
 promise@^8.1.0:
   version "8.1.0"
   resolved "https://registry.yarnpkg.com/promise/-/promise-8.1.0.tgz#697c25c3dfe7435dd79fcd58c38a135888eaf05e"
@@ -9242,10 +9247,10 @@ react-dom@^18.2.0:
     loose-envify "^1.1.0"
     scheduler "^0.23.0"
 
-react-error-overlay@^6.0.11:
-  version "6.0.11"
-  resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-6.0.11.tgz#92835de5841c5cf08ba00ddd2d677b6d17ff9adb"
-  integrity sha512-/6UZ2qgEyH2aqzYZgQPxEnz33NJ2gNsnHA2o5+o4wW9bLM/JYQitNP9xPhsXwC08hMMovfGe/8retsdDsczPRg==
+react-error-overlay@6.0.9, react-error-overlay@^6.0.11:
+  version "6.0.9"
+  resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-6.0.9.tgz#3c743010c9359608c375ecd6bc76f35d93995b0a"
+  integrity sha512-nQTTcUu+ATDbrSD1BZHr5kgSD4oF8OFjxun8uAaL8RwPBacGBNPf/yAuVVdx17N8XNzRDMrZ9XcKZHCjPW+9ew==
 
 react-is@^16.12.0, react-is@^16.13.1, react-is@^16.7.0, react-is@^16.8.4:
   version "16.13.1"
